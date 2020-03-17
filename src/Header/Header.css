@@ -1,0 +1,17 @@
+.header_main-component {
+	height: 10vh;
+	width: 100%;
+	background: #000000;
+	color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.header_nav_component {
+	width: 25%;
+	font-size: 1vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
