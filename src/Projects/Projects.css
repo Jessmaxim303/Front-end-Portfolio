@@ -1,0 +1,66 @@
+.projects_container {
+
+}
+
+.projects_into-container {
+  width: 100%;
+  height: 30vh;
+  background: #ffffff;
+}
+
+.beer_project {
+  width: 100%;
+  height: 60vh;
+  background: lightblue;
+}
+
+.project_brand-title {
+  font-size: 4vw;
+}
+
+.netflix_project {
+  width: 100%;
+  height: 60vh;
+  background: #000000;
+  color: #f1f1f1;
+}
+
+.airbnb_project {
+  width: 100%;
+  height: 60vh;
+  background: #f1f1f1;
+}
+
+.project_info-para {
+	font-size: 1.5vw;
+}
+
+.project_info-button {
+  border: 1px solid #000000;
+	background: none;
+  color: #000000;
+  font-size: 1.5vw;
+  width: 160px;
+  height: 50px;
+}
+
+.netflix_button {
+  background: none;
+  color: #f1f1f1;
+  font-size: 1.5vw;
+  width: 160px;
+  height: 50px;
+}
+
+.airbnb_button {
+  border: 1px solid #ff5a5f;
+  background: #f1f1f1;
+  color: #ff5a5f;
+  font-size: 1.5vw;
+  width: 160px;
+  height: 50px;
+}
+
+.netflix_logo {
+  width: 27vw;
+}
