@@ -4,7 +4,8 @@ import { Header } from '../Header/Header.js';
 import { About } from '../About/About.js';
 import { Projects } from '../Projects/Projects.js';
 import { WelcomeContainer } from '../WelcomeContainer/WelcomeContainer.js';
-import { Services } from '../Services/Services.js'
+import { Services } from '../Services/Services.js';
+import { Blog } from '../Blog/Blog.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <WelcomeContainer/>
       <Projects/>
       <Services/>
+      <Blog/>
     </div>
   );
 }
