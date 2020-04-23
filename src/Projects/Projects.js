@@ -5,7 +5,8 @@ import './Projects.css';
 export const Projects = () => {
 	return (
     <section className="projects_container">
-      <section className="projects_into-container">- projects
+      <section className="projects_into-container">
+        <h1>hello</h1>
         <p>I blend creativity and technical skills to improve the user experience and help 
         <br />companies reach a larger, more engaged audience through the creation 
         <br /> of modern websites designed to match a brand personality.</p>
