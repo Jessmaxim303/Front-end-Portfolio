@@ -5,11 +5,14 @@ import './Projects.css';
 export const Projects = () => {
 	return (
     <section className="projects_container">
+    <h1>MY MISSION</h1>
+    <div className="blog_color-box"></div>
       <section className="projects_into-container">
-        <h1>hello</h1>
-        <p>I blend creativity and technical skills to improve the user experience and help 
-        <br />companies reach a larger, more engaged audience through the creation 
-        <br /> of modern websites designed to match a brand personality.</p>
+        <h1 className="projects_title">Believe in the power of interaction</h1>
+        <p>Beautifully designed responsive website with engaging user experience <br/> 
+        is the most powerful tool for brand and business build trust and strengthen the <br/>
+        relationship with their audiences.
+        </p>
       </section>
     </section>
 		)
