@@ -21,6 +21,7 @@ import './Blog.css';
       	<h1>
           BLOG 
         </h1>
+        <div className="blog_color-box"></div>
       </div>
   		)
   }
