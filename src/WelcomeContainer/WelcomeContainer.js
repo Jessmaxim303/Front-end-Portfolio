@@ -13,7 +13,7 @@ export const WelcomeContainer = () => {
       background: `url(${sitemap})`,
       backgroundSize: 'cover',
     }
-            // <p className="welcome_intro_motto">Creativity at the service of the user</p>
+    
 		return(
       <section className="welcome_container">
         <section className="left" style={backgroundStyling}>

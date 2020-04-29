@@ -1,0 +1,47 @@
+.bio_container {
+	width: 100%;
+	height: 35vh;
+	background: #1C1C20;
+	display: flex;
+	flex-direction: row;
+	color: #f1f1f1;
+}
+
+.bio_left-container {
+	width: 40%;
+	height: 100%;
+	margin: 5%;
+}
+
+.bio_right-container {
+	width: 60%;
+	height: 100%;
+	margin: 5%;
+} 
+
+.bio_years-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.bio_years-title {
+	font-size: 70px;
+	color: #F32E0A;
+}
+
+.bio_years {
+	width: 20%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	line-height: 15px;
+}
+
+.bio_color-box {
+	width: 250px;
+	height: 10px;
+	background: #F32E0A;
+	/*background: #F32E0A;*/
+}
