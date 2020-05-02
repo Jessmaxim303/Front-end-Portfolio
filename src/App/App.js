@@ -1,23 +1,20 @@
 import React from 'react';
 import './App.css';
-import { Header } from '../Header/Header.js';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { About } from '../About/About.js';
-import { Bio } from '../Bio/Bio.js';
-import { Projects } from '../Projects/Projects.js';
-import { WelcomeContainer } from '../WelcomeContainer/WelcomeContainer.js';
-import { Services } from '../Services/Services.js';
-import { Blog } from '../Blog/Blog.js';
-import { Connect } from '../Connect/Connect.js';
+import { Main } from '../Main/Main.js';
+import { CodeWork } from '../CodeWork/CodeWork.js';
 
 function App() {
   return (
-    <div className="App">
-      <WelcomeContainer/>
-      <Bio/>
-      <Services/>
-      <Blog/>
-      <Connect/>
-    </div>
+  	<Router>
+      <div className="App">
+        <Switch>
+        <Route exact path='/' render={() => <Main/> } /> 
+        <Route exact path='/code' render={() => <CodeWork/> } /> 
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

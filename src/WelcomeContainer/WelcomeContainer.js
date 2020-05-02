@@ -16,6 +16,7 @@ export const WelcomeContainer = () => {
     
 		return(
       <section className="welcome_container">
+
         <section className="left" style={backgroundStyling}>
           <section className="welcome_intro_component">
             <h1 className="welcome_intro_name">JESSE MAXIM</h1>
@@ -35,8 +36,11 @@ export const WelcomeContainer = () => {
             Denver</h1>
             <p className="welcome_body_subtitle">Focused on improving a user’s experience with a company<br />
             or brand at all touchpoints.</p>
+            <button className="welcome_button_cv welcome_button">Download CV</button>
+            <button className="welcome_button_contact welcome_button">Contact</button>
           </section>
         </section>
+
       </section>
 			)
 }

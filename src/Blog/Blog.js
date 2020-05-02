@@ -22,6 +22,8 @@ import './Blog.css';
           BLOG 
         </h1>
         <div className="blog_color-box"></div>
+        <p>Interested in doing a project together?</p>
+        <button className="blog_button_email">Email Me -> </button>
       </div>
   		)
   }
