@@ -6,7 +6,10 @@
 }
 
 .codework_header {
-	font-size: 38px;
+	font-size: 7vh;
+	font-family: 'Anton', sans-serif;
+	padding-top: 15%;
+	padding-left: 3%;
 }
 
 .codework_intro-testi {
@@ -18,6 +21,26 @@
 }
 
 .codework_netflix_container {
+	width: 100%;
+	height: 50vh;
+  background: #000;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.codework_brew_container {
+	width: 100%;
+	height: 50vh;
+  background: #000;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.codework_vrad_container {
 	width: 100%;
 	height: 50vh;
   background: #000;
@@ -44,7 +67,7 @@
 
 .codework_brew_title {
 	font-size: 32px;
-	color: #000;
+	color: #d9b310;
 }
 
 .netflix_text-box {
@@ -68,3 +91,18 @@
 	height: 40vh;
 	margin: 3%;
 }
+
+.codework_netflix_github {
+	width: 160px;
+	color: #E50915;
+	border: 1.5px solid #E50915;
+	background: none;
+	height: 45px;
+	font-size: 18px;
+}
+
+.codework_color-box {
+	width: 250px;
+	height: 10px;
+	background: #F32E0A;
+} 

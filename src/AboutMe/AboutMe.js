@@ -8,7 +8,7 @@ export class AboutMe extends Component {
   render() {
   	return(
   		<section>
-  			Design Work
+  			<h1>About Me --> </h1>
   		</section>
   		)
   }

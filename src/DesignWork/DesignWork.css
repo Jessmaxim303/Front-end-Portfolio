@@ -1,0 +1,78 @@
+.designwork_intro {
+	width: 100%;
+	height: 75vh;
+	background: #000;
+	color: #f1f1f1;
+}
+
+.designwork_header {
+	font-size: 38px;
+}
+
+.designwork_intro-testi {
+	width: 100%;
+	height: 22vh;
+  background: #f1f1f1;
+  font-size: 28px;
+  text-align: center;
+}
+
+.designwork_first_container {
+	width: 100%;
+	height: 50vh;
+  background: #000;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.designwork_first_container {
+	width: 100%;
+	height: 50vh;
+  background: blue;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.designwork_first_container {
+	width: 100%;
+	height: 50vh;
+  background: yellow;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.netflix_logo {
+	width: 325px;
+}
+
+.design_text-box {
+	margin: 3%;
+}
+
+.codework_brew_container {
+	width: 100%;
+	height: 50vh;
+	background: #35A8DF;
+	color: #d9b310;
+}
+
+.codework_brew_title {
+	font-size: 32px;
+	color: #d9b310;
+}
+
+.netflix_text-box {
+
+}
+
+.codework_vrad_container {
+	width: 100%;
+	height: 50vh;
+	background: #D8120D;
+}

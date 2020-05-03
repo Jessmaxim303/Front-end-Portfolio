@@ -23,6 +23,7 @@ import './Blog.css';
         </h1>
         <div className="blog_color-box"></div>
         <p>Interested in doing a project together?</p>
+        <p>Have a project on your mind?</p>
         <button className="blog_button_email">Email Me -> </button>
       </div>
   		)
