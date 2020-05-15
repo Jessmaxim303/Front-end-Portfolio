@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './Services.css';
 import { Code } from '../Code/Code.js';
 import { Design } from '../Design/Design.js';
+import { DesignWork } from '../DesignWork/DesignWork.js';
 import { About } from '../About/About.js';
 import { Link } from "react-router-dom";
 

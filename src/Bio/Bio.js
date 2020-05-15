@@ -1,15 +1,18 @@
 import React from 'react';
+import CountUp from 'react-countup';
 import './Bio.css';
 
 export const Bio = () => {
 	return (
     <section className="bio_container">
       <section className="bio_left-container">
-        <h1>MY EXPERIENCE</h1>
-        <div className="bio_color-box"></div>
+        <div className="bio_title_box">
+          <h1 className="bio_section_title">MY EXPERIENCE</h1>
+          <div className="bio_color-box"></div>
+        </div>
         <h1 className="welcome_intro_motto">Creativity at the service of the user</h1>
         <p>If you’d like to see more details <br/>about my work experience, <br/>please visit my Linkedin</p>
-        <h3>linkedIn</h3>
+        <button className="bio_linkedin">linkedIn</button>
       </section>
       <section className="bio_right-container">
         <h1 className="welcome_intro_motto">Believe in the power of interaction</h1>
@@ -20,13 +23,18 @@ relationship with their audiences.</p>
         <section className="bio_years-container">
 
           <div className="bio_years">
-            <h1 className="bio_years-title">1.5</h1>
-            <p>Years of <br/> code <br/>Experience</p>
+            <CountUp className="bio_years-title" start={0} end={1} duration={6}/>
+            <p className="bio_years-experince">Years of <br/> code <br/>Experience</p>
           </div>
 
           <div className="bio_years">
-            <h1 className="bio_years-title">9</h1>
-            <p>Years of <br/> design <br/>Experience</p>
+            <CountUp className="bio_years-title" start={0} end={9} duration={6}/>
+            <p className="bio_years-experince">Years of <br/> design <br/>Experience</p>
+          </div>
+
+          <div className="bio_years">
+            <CountUp className="bio_years-title" start={0} end={10} duration={6}/>
+            <p className="bio_years-experince">Years of <br/> marketing <br/>Experience</p>
           </div>
 
         </section>

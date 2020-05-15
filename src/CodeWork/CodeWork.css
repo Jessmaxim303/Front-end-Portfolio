@@ -6,7 +6,15 @@
 }
 
 .codework_header {
-	font-size: 38px;
+	font-size: 7.25vh;
+	font-family: octin-college, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.codework_intro-textbox {
+	padding-top: 15%;
+	padding-left: 3%;
 }
 
 .codework_intro-testi {
@@ -18,6 +26,26 @@
 }
 
 .codework_netflix_container {
+	width: 100%;
+	height: 50vh;
+  background: #000;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.codework_brew_container {
+	width: 100%;
+	height: 50vh;
+  background: #000;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.codework_vrad_container {
 	width: 100%;
 	height: 50vh;
   background: #000;
@@ -44,7 +72,7 @@
 
 .codework_brew_title {
 	font-size: 32px;
-	color: #000;
+	color: #d9b310;
 }
 
 .netflix_text-box {
@@ -60,11 +88,82 @@
 .codework_footer_container {
 	height: 7vh;
 	width: 100%;
-	background: darkgrey;
+	background: #000;
 }
 
 .codework_netflix_computer {
-	/*width: 20vh;*/
 	height: 40vh;
-	margin: 3%;
+	margin: 3% 0%;
+}
+
+.netflix_n-logo {
+	height: 375px;
+	margin-right: 20%;
+}
+
+.codework_netflix_github {
+	width: 160px;
+	color: #E50915;
+	border: 1.5px solid #E50915;
+	background: none;
+	height: 45px;
+	font-size: 18px;
+}
+
+.codework_color-box {
+	width: 250px;
+	height: 10px;
+	background: #F32E0A;
+	margin-top: 20px;
+} 
+
+.codework_intro-para {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.codework_github-link {
+	width: 160px;
+	color: #000;
+	border: none;
+	background: #F32E0A;
+	height: 45px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.codework_header_container {
+	background: #F32E0A;
+	height: 4.5vw;
+	width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 22px;
+} 
+
+.codework_header_nav {
+	width: 40%;
+	display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.codework_header_home {
+	width: 24%;
+	display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+
+.header_text {
+  font-family: octin-college, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  margin: 1% 0 0 .75%;
+}
+
+.codework_header_c {
+	color: #f1f1f1;
 }

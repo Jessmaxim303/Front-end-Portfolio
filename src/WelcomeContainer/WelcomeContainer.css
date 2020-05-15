@@ -1,53 +1,66 @@
 .welcome_container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	height: 90vh;
+	width: 100%;
+	color: #f1f1f1;
 }
 
 .left {
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	background: #363636;
 	color: #ffffff;
 	font-size: 8vw;
+	margin-left: 20%;
 }
 
 .welcome_intro_motto {
 	font-size: 1.5vw;
 }
 
-.right {
-	width: 50%;
-	height: 100%;
-	background: #1B28C9;
-	color: #ffffff;
+.welcome_header_component {
+	height: 7vh;
+	width: 100%;
+	background: #1C1C20;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: #F32E0A;
 }
 
 .welcome_nav_component {
 	width: 85%;
 	font-size: 1.25vw;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	margin: 5% auto;
 }
 
 .welcome_body_component {
-  margin: 20% 5%;
+  margin: 5% 0% 0% 30%;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
 }
 
 .welcome_body_title {
-	font-size: 3.75vw;
-  line-height: 8vh;
-  font-family: 'Anton', sans-serif;
-  margin-top: 30%;
+	font-size: 6vw;
+  line-height: 9vh;
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10%;
+  color: #F32E0A;
 }
 
 .welcome_intro_name {
 	height: 100px;
 	width: 100%;
-	font-size: 6.5vw;
-	font-family: 'Anton', sans-serif;
+	font-size: 11vw;
+  font-family: octin-college, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .welcome_intro_motto {
@@ -67,6 +80,7 @@
 	font-size: 18px;
 	color: #FFAF28;
 	background: none;
+
 }
 
 .welcome_body_subtitle {
@@ -75,10 +89,37 @@
 }
 
 .welcome_button {
-	width: 125px;
-	height: 35px;
-	border: 1px solid yellow;
+	width: 150px;
+	height: 42px;
+	border: 1.5px solid #F1f1f1;
 	margin: 5px;
-	color: yellow;
+	color: #F1f1f1;
+	font-size: 20px;
 	background: none;
+	font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.welcome_button_container {
+	width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.bio_section_title {
+  font-size: 24px;
+}
+
+.welcome_header_name {
+	font-size: 26px;
+	font-family: octin-college, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+	margin-top: 1%;
+}
+
+.welcome_header_name:hover {
+	color: #F32E0A;
 }

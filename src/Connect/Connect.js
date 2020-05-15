@@ -1,5 +1,5 @@
 import React from 'react';
-import netflix from '../Assets/Netflix.png';
+import linkedin from '../Assets/linkedin.png';
 import github from '../Assets/github.png';
 import './Connect.css';
 
@@ -10,10 +10,10 @@ export const Connect = () => {
     }
 	return (
     <section className="connect_main-container">
-    	<h1>CONNECT</h1>
-    	<section>
-    		<div style={githubstyle}></div>
-    		<div></div>
+    	<h1 className="connect_main-title">CONNECT</h1>
+    	<section className="connect_logo-container">
+            <img className="github_logo" src={github}/>
+            <img className="linkedin_logo" src={linkedin}/>
     	</section>
     	<div className="connect_footer"></div>
     </section>

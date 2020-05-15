@@ -2,16 +2,57 @@
 	width: 100%;
 	height: 25vh;
 	background: #1C1C20;
-	font-size: 24px;
+	font-size: 22px;
 	color: #f1f1f1;
 	font-family: 'Anton', sans-serif;
 	display: flex;
 	flex-direction: column;
-	/*justify-content: center;*/
 }
 
 .blog_color-box {
 	width: 250px;
-	height: 10px;
+	height: 5px;
 	background: #F32E0A;
+}
+
+.blog_input {
+  width: 80%;
+  height: 40px;
+  background: none;
+  color: #f1f1f1;
+  border: none;
+  font-size: 22px;
+  padding-left: 15px;
+}
+
+.blog_main-title{
+	font-size: 22px;
+}
+
+.blog_button_email {
+	width: 18%;
+	background: none;
+	color: #f1f1f1;
+	border: none;
+	font-size: 22px;
+}
+
+.blog_button_email:hover {
+	color: #F32E0A;
+}
+
+.blog_email-box {
+	border: 1px solid #f1f1f1;
+	border-top: none;
+}
+
+.blog_inner-container {
+  width: 95%;
+  height: 100px;
+  margin-top: 3%;
+  margin-left: 2.5%;
+}
+
+.blog_title-box {
+	margin-left: 2.5%;
 }
