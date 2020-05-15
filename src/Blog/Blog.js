@@ -18,13 +18,19 @@ import './Blog.css';
   render() {
   	return (
       <div className="blog_main-container">
-      	<h1>
-          BLOG 
-        </h1>
+        <div className="blog_title-box"> 
+      	  <h1 className="blog_main-title">
+            BLOG 
+          </h1>
         <div className="blog_color-box"></div>
-        <p>Interested in doing a project together?</p>
-        <p>Have a project on your mind?</p>
-        <button className="blog_button_email">Email Me -> </button>
+          <p>Have a project on your mind?</p>
+        </div>
+        <section className="blog_inner-container">
+        <div className="blog_email-box">
+          <input className="blog_input" placeholder="ENTER YOUR EMAIL"/>
+          <button className="blog_button_email">SUBMIT </button>
+        </div>
+        </section>
       </div>
   		)
   }

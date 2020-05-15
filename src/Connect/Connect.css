@@ -1,10 +1,9 @@
 .connect_main-container {
 	width: 100%;
-	height: 30vw;
+	height: 33vw;
 	font-size: 10vw;
 	color: #B4B4B4;
 	margin: 0 auto;
-	font-family: 'Anton', sans-serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -12,8 +11,24 @@
 	line-height: 15vw;
 }
 
+.connect_main-title {
+  font-family: octin-college, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22vh;
+}
+
 .connect_footer {
 	width: 100%;
 	height: 4vh;
 	background: #1C1C20;
+}
+
+.github_logo {
+	width: 75px;
+	margin-right: 15px;
+}
+
+.linkedin_logo {
+	width: 75px;
 }
